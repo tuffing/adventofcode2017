@@ -1,0 +1,11 @@
+/home/logan/projects/adventofcode2017/Day01/tests/bin/Debug/tests.dll
+/home/logan/projects/adventofcode2017/Day01/tests/bin/Debug/tests.pdb
+/home/logan/projects/adventofcode2017/Day01/tests/bin/Debug/Day01.exe
+/home/logan/projects/adventofcode2017/Day01/tests/bin/Debug/nunit.framework.dll
+/home/logan/projects/adventofcode2017/Day01/tests/bin/Debug/Day01.pdb
+/home/logan/projects/adventofcode2017/Day01/tests/bin/Debug/nunit.framework.xml
+/home/logan/projects/adventofcode2017/Day01/tests/obj/Debug/tests.csprojAssemblyReference.cache
+/home/logan/projects/adventofcode2017/Day01/tests/obj/Debug/tests.csproj.CoreCompileInputs.cache
+/home/logan/projects/adventofcode2017/Day01/tests/obj/Debug/tests.csproj.CopyComplete
+/home/logan/projects/adventofcode2017/Day01/tests/obj/Debug/tests.dll
+/home/logan/projects/adventofcode2017/Day01/tests/obj/Debug/tests.pdb

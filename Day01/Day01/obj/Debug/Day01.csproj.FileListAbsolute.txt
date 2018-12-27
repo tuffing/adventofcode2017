@@ -1,0 +1,6 @@
+/home/logan/projects/adventofcode2017/Day01/Day01/bin/Debug/Day01.exe
+/home/logan/projects/adventofcode2017/Day01/Day01/bin/Debug/Day01.pdb
+/home/logan/projects/adventofcode2017/Day01/Day01/obj/Debug/Day01.csprojAssemblyReference.cache
+/home/logan/projects/adventofcode2017/Day01/Day01/obj/Debug/Day01.csproj.CoreCompileInputs.cache
+/home/logan/projects/adventofcode2017/Day01/Day01/obj/Debug/Day01.exe
+/home/logan/projects/adventofcode2017/Day01/Day01/obj/Debug/Day01.pdb
