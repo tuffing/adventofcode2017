@@ -31,8 +31,3 @@ Given a grid of numbers from the total from findin the min/max of each row and d
 ### pt b:
 
 Each line only has two numbers that evenly divide. find the total of those divisions
-
-### notes
-This is going to be much slower than when I used python. Python has a lot of very convenient short cuts particularly because of it's dynamic typing. 
-
-Need to find some nice short cuts as I go along. 
