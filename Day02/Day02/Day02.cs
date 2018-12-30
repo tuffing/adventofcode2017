@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 
 namespace Day02
 {
@@ -12,7 +13,7 @@ namespace Day02
         public Day02(string fileName)
         {
             _input = new List<List<int>>();
-            List<string> lines = File.ReadAllLines(fileName).ToList();
+            var lines = GetFromResources("Day02." + fileName).Split('\n').ToList();
 
             foreach (var l in lines)
             {
@@ -20,6 +21,18 @@ namespace Day02
                 _input.Add(line);
             }
 
+        }
+        
+        internal string GetFromResources(string resourceName)
+        {
+            Assembly assem = this.GetType().Assembly;
+            using (Stream stream = assem.GetManifestResourceStream(resourceName))
+            {
+                using (var reader = new StreamReader(stream))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
         }
 
         public int PartOne()
