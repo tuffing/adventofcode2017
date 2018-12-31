@@ -46,3 +46,13 @@ Same above but now each number is the sum of it's adjacent values (if calculated
 Answered the first one using math but found that wouldn't be very feasible (but theortically possible stil??) for part 2. So i generated the damned thing. very finicky.
 
 Original converted the coords to strings for the dictionary but turns out C# has tuples.. very clunky tuples. Used those instead to be a little less dirty.
+
+## 4: https://adventofcode.com/2017/day/4
+
+### pt a:
+
+How many phrases in the list do not have duplicates?
+
+### pt b:
+
+How many phrases in the list do not have anagrams
