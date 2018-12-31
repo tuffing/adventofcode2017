@@ -56,3 +56,13 @@ How many phrases in the list do not have duplicates?
 ### pt b:
 
 How many phrases in the list do not have anagrams
+
+## 5: https://adventofcode.com/2017/day/5
+
+### pt a:
+
+given a list of offsets find how many steps before they go over, upping the offset by 1 each time
+
+### pt b:
+
+Same as part two but if an offset is greather than 3 minus 1 
