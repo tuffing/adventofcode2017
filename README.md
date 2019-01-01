@@ -66,3 +66,13 @@ given a list of offsets find how many steps before they go over, upping the offs
 ### pt b:
 
 Same as part two but if an offset is greather than 3 minus 1 
+
+## 6: https://adventofcode.com/2017/day/6
+
+### pt a:
+
+Given the initial block counts in your puzzle input, how many redistribution cycles must be completed before a configuration is produced that has been seen before?
+
+### pt b:
+
+How many cycles are in the infinite loop that arises from the configuration in your puzzle input?
