@@ -91,3 +91,13 @@ Find the unbalanced branch. Return the value that the bad node should be.
 ### Notes:
 
 Abused the way advent of code works on this one a bit. Guessed that the input data won't have the unbalanced nodes appear with less than 3 children. Saved a little bit of time dealing with that edge case.
+
+## 8: https://adventofcode.com/2017/day/8
+
+### pt a:
+
+What is the largest value in any register after completing the instructions in your puzzle input?
+
+### pt b:
+
+What is the highest value held in any register during this process
