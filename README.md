@@ -76,3 +76,18 @@ Given the initial block counts in your puzzle input, how many redistribution cyc
 ### pt b:
 
 How many cycles are in the infinite loop that arises from the configuration in your puzzle input?
+
+
+## 7: https://adventofcode.com/2017/day/7
+
+### pt a:
+
+Build the tree, return the name of the parent node
+
+### pt b:
+
+Find the unbalanced branch. Return the value that the bad node should be.
+
+### Notes:
+
+Abused the way advent of code works on this one a bit. Guessed that the input data won't have the unbalanced nodes appear with less than 3 children. Saved a little bit of time dealing with that edge case.
