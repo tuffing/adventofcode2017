@@ -101,3 +101,13 @@ What is the largest value in any register after completing the instructions in y
 ### pt b:
 
 What is the highest value held in any register during this process
+
+## 9: https://adventofcode.com/2017/day/9
+
+### pt a:
+
+Given a bunch of bracket types and rules, given a string What is the total score for all groups in your input?
+
+### pt b:
+
+How many non-canceled characters are within the garbage in your puzzle input?
