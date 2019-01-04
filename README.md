@@ -138,3 +138,13 @@ What is the furthest point the path gets?
 Very good resource of dealing with hex grids:
 
 https://www.redblobgames.com/grids/hexagons/#distances
+
+## 12: https://adventofcode.com/2017/day/12
+
+### pt a:
+
+Given groups of programs connected to each other, find the size of the group with program 0
+
+### pt b:
+
+How many groups are there in total?
