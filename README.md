@@ -122,3 +122,19 @@ Given a list of 'lengths', rotate that range of items (then move pos). Return th
 
 Using the function from above, now use the input as a string of ascii characters. Convert those to integers, add a set of suffix numbers and then run the hash over it 64 times.
 Then turn the resulting list into a string of Hexes (as the result of bitwise xor on each block of 16) 
+
+## 11: https://adventofcode.com/2017/day/11
+
+### pt a:
+
+Given a hex grid and a string of directions, how far away is the final hex?
+
+### pt b:
+
+What is the furthest point the path gets?
+
+### Notes
+
+Very good resource of dealing with hex grids:
+
+https://www.redblobgames.com/grids/hexagons/#distances
