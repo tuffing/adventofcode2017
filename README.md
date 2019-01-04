@@ -111,3 +111,14 @@ Given a bunch of bracket types and rules, given a string What is the total score
 ### pt b:
 
 How many non-canceled characters are within the garbage in your puzzle input?
+
+## 10: https://adventofcode.com/2017/day/10
+
+### pt a:
+
+Given a list of 'lengths', rotate that range of items (then move pos). Return ther results of multiplying first two items
+
+### pt b:
+
+Using the function from above, now use the input as a string of ascii characters. Convert those to integers, add a set of suffix numbers and then run the hash over it 64 times.
+Then turn the resulting list into a string of Hexes (as the result of bitwise xor on each block of 16) 
