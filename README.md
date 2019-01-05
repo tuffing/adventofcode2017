@@ -166,3 +166,14 @@ How much do you need to delay before you can get across with out a collision
 First solution theortically won't work on all inputs as the math is wrong. Fixed on part b
 
 Curious if this can be done faster. Takes a couple seconds to find a solution. To optimise it i suspect i'd need a way to simplify the loop further. I reckon it might be possible to Calculate it.
+
+## 13: https://adventofcode.com/2017/day/13
+
+### pt a:
+
+Run the sol from part 2 10 on the given number incremementing the input string from 0 to 127 ("input-" + [0-127]). Convert each string to binary and count the zeroes.
+
+### pt b:
+Using the grid made above, group all the clusters of '1's into groups How many group are there?
+
+
