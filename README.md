@@ -148,3 +148,21 @@ Given groups of programs connected to each other, find the size of the group wit
 ### pt b:
 
 How many groups are there in total?
+
+## 13: https://adventofcode.com/2017/day/13
+
+### pt a:
+
+Given the details of the firewall you've recorded, if you leave immediately, what is the severity of your whole trip? 
+
+Based on moving items per row, you need to make it to the end - record where you the items.
+
+### pt b:
+
+How much do you need to delay before you can get across with out a collision
+
+### Notes:
+
+First solution theortically won't work on all inputs as the math is wrong. Fixed on part b
+
+Curious if this can be done faster. Takes a couple seconds to find a solution. To optimise it i suspect i'd need a way to simplify the loop further. I reckon it might be possible to Calculate it.
