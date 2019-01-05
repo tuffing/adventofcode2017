@@ -167,7 +167,7 @@ First solution theortically won't work on all inputs as the math is wrong. Fixed
 
 Curious if this can be done faster. Takes a couple seconds to find a solution. To optimise it i suspect i'd need a way to simplify the loop further. I reckon it might be possible to Calculate it.
 
-## 13: https://adventofcode.com/2017/day/13
+## 14: https://adventofcode.com/2017/day/14
 
 ### pt a:
 
