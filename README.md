@@ -187,3 +187,16 @@ Same as above, but now only compare when gena is divisible by 4 and genb is divi
 
 ### Notes:
 Actually hit the integer limits on this one. Took a while to work out why the numbers were wonky :p
+
+
+## 16: https://adventofcode.com/2017/day/16
+
+### pt a:
+
+You have a list of letters, rearrange them based on a list of commands.
+
+### pt b:
+Find the result after 1 billion.
+
+### Notes:
+Part B repeats after the 60th iteration. Solution just generates the first 60 and then uses 1 billion mod 60 to find the answer.
