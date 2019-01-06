@@ -176,4 +176,14 @@ Run the sol from part 2 10 on the given number incremementing the input string f
 ### pt b:
 Using the grid made above, group all the clusters of '1's into groups How many group are there?
 
+## 15: https://adventofcode.com/2017/day/15
 
+### pt a:
+
+Using two lists of generating numbers, find out how many pairs have the final 16 bits (binary) match
+
+### pt b:
+Same as above, but now only compare when gena is divisible by 4 and genb is divisible by 8. 
+
+### Notes:
+Actually hit the integer limits on this one. Took a while to work out why the numbers were wonky :p
