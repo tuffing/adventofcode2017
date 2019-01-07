@@ -200,3 +200,18 @@ Find the result after 1 billion.
 
 ### Notes:
 Part B repeats after the 60th iteration. Solution just generates the first 60 and then uses 1 billion mod 60 to find the answer.
+
+
+## 17: https://adventofcode.com/2017/day/17
+
+### pt a:
+
+What is the value after 2017 in your completed circular buffer?
+
+### pt b:
+What is the value after value 0 after 50,000,000 runs
+
+### Notes:
+Interesting note here, the build in dotnet linked list is surprisingly inefficient. It appears to be substantially slower than pythons deque (a first :p).
+
+The more effecient solution for part b is to just keep track of the value after 0. Which c# can do in a second or so. 
