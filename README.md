@@ -229,3 +229,17 @@ You have two programs running and sharing data (same input). How many times does
 This problem is asking to be redone with proper multi theading. On my todo list.
 
 Tired + not reading things properly is extremely painful - many infinite loops on this one thanks to a combination of missing little details in the instructions and / or refactoring code and forgetting to put things back in.
+
+## 19: https://adventofcode.com/2017/day/19
+
+### pt a:
+
+You're given a path, find the letters (and order) that the letter a hit to get to the end
+
+### pt b:
+
+total number of steps to get to the end?
+
+### notes:
+
+Very trivial example of the early trolley example in the 2018 challenge.
