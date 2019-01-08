@@ -215,3 +215,17 @@ What is the value after value 0 after 50,000,000 runs
 Interesting note here, the build in dotnet linked list is surprisingly inefficient. It appears to be substantially slower than pythons deque (a first :p).
 
 The more effecient solution for part b is to just keep track of the value after 0. Which c# can do in a second or so. 
+
+## 18: https://adventofcode.com/2017/day/18
+
+### pt a:
+
+Another registry / run a program exercise. Find the first valid value for rcv
+
+### pt b:
+You have two programs running and sharing data (same input). How many times does program 1 send data to program 0
+
+### Notes:
+This problem is asking to be redone with proper multi theading. On my todo list.
+
+Tired + not reading things properly is extremely painful - many infinite loops on this one thanks to a combination of missing little details in the instructions and / or refactoring code and forgetting to put things back in.
