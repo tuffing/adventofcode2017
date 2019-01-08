@@ -289,11 +289,6 @@ namespace Day18
                 
                 if (_posB >= _input.Count || _posB < 0 || !_bOnHold && terminatedA)
                     terminatedB = true;
-
-                if (_aOnHold && _bOnHold)
-                    break;
-
-
             }
 
             return _sndATotal;
