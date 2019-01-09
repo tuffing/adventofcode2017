@@ -243,3 +243,19 @@ total number of steps to get to the end?
 ### notes:
 
 Very trivial example of the early trolley example in the 2018 challenge.
+
+## 20: https://adventofcode.com/2017/day/20
+
+### pt a:
+
+Given a set of points with 3d coords, velocity (on x,y,z) and aceleration (per x,y,z). Find the point that will be closest to 0,0,0 in the long run.
+
+### pt b:
+
+If you remove points that land in the same place at the same time, how much will ultimately be left in the long run
+
+### notes:
+
+Solved pt a using math - the point with both the lowest acceleration (add all three together using manhatten distance) and then lowest velocity (again manhatten distance) will be the remaining point.
+
+Meant i actually had to implement the solution for pt 2. All collisions happen almost immediately, so just ran the simulation for about 40 iterations and returned the final count;
