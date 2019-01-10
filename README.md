@@ -280,4 +280,6 @@ Same as above but process it 18 times.
 
 Guessing 18 was picked because a super at this point the square would be huge and possibly hugely time consuming. My solution seemed quick enough - about 5 seconds. Room to be optimised though.
 
+I suspect part 18 was to catch out those who are doing the rotations and flipping in real time - i preprocessed em :p
+
 This was quite a fun exercise - though a little time consuming doing all the parts.
