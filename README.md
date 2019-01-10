@@ -283,3 +283,5 @@ Guessing 18 was picked because a super at this point the square would be huge an
 I suspect part 18 was to catch out those who are doing the rotations and flipping in real time - i preprocessed em :p
 
 This was quite a fun exercise - though a little time consuming doing all the parts.
+
+Looking at others solutions, turns out there is a math solution to this problem. Once you get to the third iteration you have everything you need to get more without running the full simulation. a possible @TODO.
