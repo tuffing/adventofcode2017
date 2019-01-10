@@ -259,3 +259,25 @@ If you remove points that land in the same place at the same time, how much will
 Solved pt a using math - the point with both the lowest acceleration (add all three together using manhatten distance) and then lowest velocity (again manhatten distance) will be the remaining point.
 
 Meant i actually had to implement the solution for pt 2. All collisions happen almost immediately, so just ran the simulation for about 40 iterations and returned the final count;
+
+## 21: https://adventofcode.com/2017/day/21
+
+### pt a:
+
+You are given a 3x3 grid and a set of patterns each 2x2 or 3x3 and outputs for each 3x3 and 4x4 respectively. 
+
+Split the grid up into 2x2 squares or 3x3 (what ever is doable first) and match them against the patterns. If they match the square becomes the output pattern.
+
+Stitch the new squares back together. Repeat the process 5 times and report how many '#' there are.
+
+One quirk of this is that the patterns can match on any combination of flipping and rotation.
+
+### pt b:
+
+Same as above but process it 18 times.
+
+### notes:
+
+Guessing 18 was picked because a super at this point the square would be huge and possibly hugely time consuming. My solution seemed quick enough - about 5 seconds. Room to be optimised though.
+
+This was quite a fun exercise - though a little time consuming doing all the parts.
