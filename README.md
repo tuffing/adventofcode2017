@@ -285,3 +285,18 @@ I suspect part 18 was to catch out those who are doing the rotations and flippin
 This was quite a fun exercise - though a little time consuming doing all the parts.
 
 Looking at others solutions, turns out there is a math solution to this problem. Once you get to the third iteration you have everything you need to get more without running the full simulation. a possible @TODO.
+
+## 22: https://adventofcode.com/2017/day/22
+
+### pt a:
+
+Given your map and a bunch of movement and assignment rules on an infinite grid:
+Given your actual map, after 10000 bursts of activity, how many bursts cause a node to become infected? (Do not count nodes that begin infected.)
+
+### pt b:
+
+Same as above but more advanced movement and assignment now up to 10000000
+
+### notes:
+
+I have a feeling there is a lot of room for optimisation on this one. I have a hunch there might even be a math solution
