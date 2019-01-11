@@ -300,3 +300,17 @@ Same as above but more advanced movement and assignment now up to 10000000
 ### notes:
 
 I have a feeling there is a lot of room for optimisation on this one. I have a hunch there might even be a math solution
+
+## 23: https://adventofcode.com/2017/day/23
+
+### pt a:
+
+Another run the code problem. This time count how many times mul is hit.
+
+### pt b:
+
+Reg a now equals 1. Optimise the code and return the answer
+
+### notes:
+
+Solved part b by first converting it directly into c#, from there simplified and deduced until i clicked to what the code was doing - then wrote a function from scratch to do the same thing. It's finding all non-primes between a set range incrementing by 17 each time.
