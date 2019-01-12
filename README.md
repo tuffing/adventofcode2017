@@ -314,3 +314,17 @@ Reg a now equals 1. Optimise the code and return the answer
 ### notes:
 
 Solved part b by first converting it directly into c#, from there simplified and deduced until i clicked to what the code was doing - then wrote a function from scratch to do the same thing. It's finding all non-primes between a set range incrementing by 17 each time.
+
+## 24: https://adventofcode.com/2017/day/24
+
+### pt a:
+
+What is the strength of the strongest bridge you can make with the components you have available? Each component has two sockets, a component can only plug into an component with a matching socket. Can only use each one per bridge.
+
+### pt b:
+
+What is the strength of the longest bridge you can make? If you can make multiple bridges of the longest length, pick the strongest one.
+
+### notes:
+
+Recursion!
