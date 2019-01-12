@@ -53,7 +53,7 @@ namespace Day24
             }
 
             var longest = lengths.Max();
-            longestStrength = Enumerable.Range(0, lengths.Count).Where(i => lengths[i] == longest).ToArray().Select(k => strengths[k]).Concat(new[] {0}).Max();
+            longestStrength = Enumerable.Range(0, lengths.Count).Where(i => lengths[i] == longest).Select(k => strengths[k]).Concat(new[] {0}).Max();
 
 
             return strengths.Max();
