@@ -46,7 +46,7 @@ namespace Day24
             
             zeroIndexes.AddRange(Enumerable.Range(0, _one.Count).Where(i => _one[i] == 0).ToArray());
             zeroIndexes.AddRange(Enumerable.Range(0, _two.Count).Where(i => _two[i] == 0).ToArray());
-            
+
             foreach (var n in zeroIndexes)
             {
                 BuildChain(0, n, _one[n] == 0 ? _two[n] : _one[n], 0, strengths, _one, _two, lengths);

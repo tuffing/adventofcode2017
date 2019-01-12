@@ -328,3 +328,23 @@ What is the strength of the longest bridge you can make? If you can make multipl
 ### notes:
 
 Recursion!
+
+## 25: https://adventofcode.com/2017/day/25
+
+### pt a:
+
+Parse the rules for a state machine, run it for the first x steps defined in the input. Your tape is infinite with each step initalised at 0
+
+### pt b:
+
+The end (click a link)
+
+### notes:
+The tape here was just calling for a linked list. I defined the states as their own object, and each ran their own step. returning the next state object to be run.
+
+I would of liked each state to call the run step for the next state but c# has a recursion limit well below 12 million :p.
+
+I techniqly broke my rules for this one. I imported the ValueTuple library. But really this was just a quality of life decision. Being able to define and return tuples from
+a function with this syntax `return (val1, val2)` is something i missed a lot of python.
+
+Solution solved the entire 12,172,063 step run almost instantly. 
